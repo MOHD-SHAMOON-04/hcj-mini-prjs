@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem auto;
+    border-bottom: 1px solid #707070;
+    text-align: center;
+}
+
+.input h1{
+    margin: 0 auto 1rem;
+}
+
+.input input{
+    width: 10rem;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+    outline: none;
+    margin-bottom: 0.5rem;
+}
+
+.input button{
+    padding: 0.5rem 1rem;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    background-color: #ffbd2f;
+    color: #000;
+    cursor: pointer;
+    margin-bottom: 0.5rem ;
+}
+
+.input button:hover{
+    background-color: #ffdb58;
+}
+/* done */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.data{
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 14rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.data h2{
+    text-align: center;
+    padding: 0.5rem;
+    border: 1px solid #000;
+}
+
+.data button{
+    /* width: 100%; */
+    margin-bottom: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+button{
+    transition: 0.3s;
+}
+
+#bitflip{
+    background-color: #ff5f4a;
+}
+
+#bitflip:hover{
+    background-color: #ff8f80;
+}
+
+#correctflip{
+    background-color: #56fa56;
+}
+
+#correctflip:hover{
+    background-color: #8bff8b;
+}
+
+#reset{
+    background-color: #9aa4fa;
+}
+
+#reset:hover{
+    background-color: #bcc3ff;
+}
+
+.matrix{
+    padding: 0.8rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.matrix span{
+    text-align: center;
+    padding: 0.3rem 0.1rem;
+    border: 1px solid #000;
+}
